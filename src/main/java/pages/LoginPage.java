@@ -21,8 +21,8 @@ public class LoginPage {
         driver.findElement(passwordField).sendKeys(password);
     }
 
-    public secureAreaPage clickLoginButton(){
+    public SecureAreaPage clickLoginButton(){
         driver.findElement(loginButton).click();
-        return new secureAreaPage(driver);
+        return new SecureAreaPage(driver);
     }
 }
