@@ -5,17 +5,21 @@ import org.openqa.selenium.Dimension;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
+import pages.HomePage;
 
 import java.sql.SQLOutput;
 import java.util.List;
 
 public class BaseTests {
     private WebDriver driver;
+    protected HomePage homepage;
 
     public void setUp(){
         System.setProperty("webdriver.chrome.driver", "resources/chromedriver.exe");
         driver = new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
+
+        homepage = new HomePage(driver);
 
         //Exercise Chapter 3
         WebElement shiftingContentLink = driver.findElement(By.linkText("Shifting Content"));
@@ -37,7 +41,6 @@ public class BaseTests {
         checkboxesLink.click();
 
         System.out.println(driver.getTitle());
-
 
     }
 
