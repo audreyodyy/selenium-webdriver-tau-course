@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebcda20e-83df-4af9-9a8d-c70e200fefcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/EmailSentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/forgotPassword/ForgotPasswordTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,7 +54,7 @@
       <recent name="C:\Users\audre\IdeaProjects\selenium-webdriver-tau\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.DropdownTests">
+  <component name="RunManager" selected="TestNG.ForgotPasswordTests">
     <configuration name="BaseTests" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="base.BaseTests" />
       <module name="selenium-webdriver-tau" />
@@ -82,6 +85,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ForgotPasswordTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-tau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="forgotPassword.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="forgotPassword" />
+      <option name="MAIN_CLASS_NAME" value="forgotPassword.ForgotPasswordTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="LoginTests.testSuccessfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-tau" />
       <extension name="coverage">
@@ -102,6 +122,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ForgotPasswordTests" />
         <item itemvalue="TestNG.DropdownTests" />
         <item itemvalue="TestNG.LoginTests.testSuccessfulLogin" />
         <item itemvalue="Application.BaseTests" />
