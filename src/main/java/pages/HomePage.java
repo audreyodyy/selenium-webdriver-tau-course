@@ -40,7 +40,7 @@ public class HomePage {
     }
 
     public AlertsPage clickJSAlerts(){
-        clickLink("Javascript Alerts0");
+        clickLink("JavaScript Alerts");
         return new AlertsPage(driver);
     }
 
