@@ -53,7 +53,7 @@
       <recent name="C:\Users\audre\IdeaProjects\selenium-webdriver-tau\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertTests.testGetTextFromAlert">
+  <component name="RunManager" selected="TestNG.AlertTests.testInputFromAlert">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-tau" />
       <extension name="coverage">
@@ -89,17 +89,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertTests.testInputFromAlert" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-tau" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
+      <option name="METHOD_NAME" value="testInputFromAlert" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -143,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.AlertTests.testInputFromAlert" />
         <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
         <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.KeyTests" />
         <item itemvalue="TestNG.KeyTests.testBackspace" />
-        <item itemvalue="TestNG.HoverTests" />
       </list>
     </recent_temporary>
   </component>
