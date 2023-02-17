@@ -1,3 +1,5 @@
+package uploadFiles;
+
 import base.BaseTests;
 import org.testng.annotations.Test;
 
