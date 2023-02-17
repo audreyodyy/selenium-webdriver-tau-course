@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebcda20e-83df-4af9-9a8d-c70e200fefcc" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/FileUploadPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FileUploadTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +54,7 @@
       <recent name="C:\Users\audre\IdeaProjects\selenium-webdriver-tau\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.AlertTests.testInputFromAlert">
+  <component name="RunManager" selected="TestNG.FileUploadTests">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-tau" />
       <extension name="coverage">
@@ -107,6 +108,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="FileUploadTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-tau" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="FileUploadTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="KeyTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-tau" />
       <extension name="coverage">
@@ -124,31 +136,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KeyTests.testBackspace" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-tau" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="keys.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="keys" />
-      <option name="MAIN_CLASS_NAME" value="keys.KeyTests" />
-      <option name="METHOD_NAME" value="testBackspace" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.FileUploadTests" />
+        <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.AlertTests.testInputFromAlert" />
         <item itemvalue="TestNG.AlertTests.testGetTextFromAlert" />
-        <item itemvalue="TestNG.AlertTests" />
         <item itemvalue="TestNG.KeyTests" />
-        <item itemvalue="TestNG.KeyTests.testBackspace" />
       </list>
     </recent_temporary>
   </component>
