@@ -54,6 +54,11 @@ public class HomePage {
         return new ContextMenuPage(driver);
     }
 
+    public WYSIWYGEditorPage clickWYSIWYGEditor(){
+        clickLink("WYSIWYG Editor");
+        return new WYSIWYGEditorPage(driver);
+    }
+
     private void clickLink(String linkText){
         driver.findElement(By.linkText(linkText)).click();
     }

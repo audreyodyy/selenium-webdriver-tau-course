@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ebcda20e-83df-4af9-9a8d-c70e200fefcc" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/ContextMenuPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/contextMenu/ContextMenuTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WYSIWYGEditorPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/WYSIWYGEditor/WysiwygEditorTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FileUploadTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/uploadFiles/FileUploadTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +54,7 @@
       <recent name="C:\Users\audre\IdeaProjects\selenium-webdriver-tau\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.ContextMenuTests.testContextMenu">
+  <component name="RunManager" selected="TestNG.WysiwygEditorTests.testWysiwyg">
     <configuration name="AlertTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="selenium-webdriver-tau" />
       <extension name="coverage">
@@ -67,24 +66,6 @@
       <option name="PACKAGE_NAME" value="alerts" />
       <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
       <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AlertTests.testInputFromAlert" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="selenium-webdriver-tau" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="alerts.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="alerts" />
-      <option name="MAIN_CLASS_NAME" value="alerts.AlertTests" />
-      <option name="METHOD_NAME" value="testInputFromAlert" />
-      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -137,13 +118,31 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="WysiwygEditorTests.testWysiwyg" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="selenium-webdriver-tau" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="WYSIWYGEditor.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="WYSIWYGEditor" />
+      <option name="MAIN_CLASS_NAME" value="WYSIWYGEditor.WysiwygEditorTests" />
+      <option name="METHOD_NAME" value="testWysiwyg" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.WysiwygEditorTests.testWysiwyg" />
         <item itemvalue="TestNG.ContextMenuTests.testContextMenu" />
         <item itemvalue="TestNG.ContextMenuTests" />
         <item itemvalue="TestNG.FileUploadTests" />
         <item itemvalue="TestNG.AlertTests" />
-        <item itemvalue="TestNG.AlertTests.testInputFromAlert" />
       </list>
     </recent_temporary>
   </component>
